@@ -1,0 +1,23 @@
+.select {
+  width: 16%;
+  height: 70px;
+
+  border: 1px solid rgba(127, 20, 184, 1);
+  border-left: none;
+  background-color: #DDDDDD;
+  color: #000000;
+  font-weight: 500;
+  font-size: 20px;
+  text-decoration: none;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.4s;
+  box-shadow: 4px 3px 10px rgb(127, 20, 184);
+}
+
+.select:focus {
+  border-color: rgba(255, 255, 255, 1);
+  background-color: #FFFFFF;
+}

@@ -1,0 +1,25 @@
+.btn {
+  width: 24%;
+  height: 70px;
+  border-radius: 0 35px 35px 0;
+  border: none;
+  cursor: pointer;
+  background: none;
+  background: linear-gradient(135deg, rgba(127,20,184,1) 20%, rgba(255,110,0,1) 120%);
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.2s;
+  width: 200px;
+  text-transform: uppercase;
+  box-shadow: 3px 3px 10px rgb(127, 20, 184);
+}
+
+.btn:hover {
+  background: linear-gradient(135deg, rgba(127,20,184,1) -20%, rgba(255,110,0,1) 80%);
+}

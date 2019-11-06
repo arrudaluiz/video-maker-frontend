@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 14px;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #ddd;
+}
+
+span {
+  font-weight: bold;
+}
+
+.view {
+  padding: 5% 10%;
+}
